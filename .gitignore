@@ -1,0 +1,30 @@
+# Claude Code internal folder
+.claude/
+
+# Environment variables (NEVER commit API keys)
+.env
+.env.local
+
+# ChromaDB persistent storage
+chroma_db_*/
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
