@@ -1,8 +1,9 @@
 pypdf==5.1.0
 tiktoken==0.8.0
 langchain-text-splitters==0.3.2
-google-genai==0.3.0
+google-genai>=0.3.0
 chromadb==0.5.23
 ipywidgets==8.1.5
 tqdm==4.67.1
 python-dotenv==1.0.1
+ipykernel==6.29.5
